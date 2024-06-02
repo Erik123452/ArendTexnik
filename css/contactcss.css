@@ -1,0 +1,38 @@
+body{
+	height: 100vh;
+	background: url(img/bg1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.navbar-brand img{
+	height:45px;
+	transition: .5s;
+}
+
+.navbar-brand img:hover{
+	transform: scale(1.2);
+}
+
+
+.container {
+	margin:0%;
+    justify-content: space-between;
+	padding:150px;
+}
+
+
+.box {
+
+
+}
+
+.contact-page{
+	background-color: lightblue;
+	height: 150px;
+	
+}
+
+
+
