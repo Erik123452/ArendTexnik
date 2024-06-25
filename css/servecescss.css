@@ -1,0 +1,36 @@
+body{
+	background: linear-gradient(60deg, #d1f0ff 0%, #ffffff 100%);
+}
+
+.navbar-brand img{
+	height:45px;
+	transition: .5s;
+}
+
+.navbar-brand img:hover{
+	transform: scale(1.2);
+}
+
+.footer{
+	background-color: #cccccc;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width:100%;
+	padding-left: 5%;
+	padding-right: 15%;
+	margin-top: 50px;
+}
+
+.footer-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+.footer-contacts{
+	display:flex;
+}
+
+
